@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.full {
+    height: 100vh;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+#red {
+    background-color: red;
+    color: yellow;
+}
+
+#green {
+    background-color: green;
+    color: yellow;
+}
+
+#yellow {
+    background-color: yellow;
+    color: green;
+}
+
+.card {
+    width: 40%;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.navbar {
+    position: fixed;
+    top: 60px;
+    right: 80px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+a {
+    display: block;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: wheat;
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    text-shadow: 2 2 5px black;
+}
+
+a:hover {
+    scale: 1.2;
+}
